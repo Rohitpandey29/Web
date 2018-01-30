@@ -1,0 +1,21 @@
+public class Tcp {
+
+	public static void main(String[] args) {
+		StringBuffer s = new StringBuffer();
+		String seqNum ="00000000";
+		String ackNum = "00000000";
+		String flags ="51020000";
+		String stu = "8143687";
+		int source_PortTemp = Integer.parseInt(studentId.substring(3, 7));
+		int destination_PortTemp = Integer.parseInt(studentId.substring(0,4));
+		String sourcePort = Integer.toHexString(sourcePortTemp);
+		String destinationPort = Integer.toHexString(destinationPortTemp);
+		sb.append(source_Port);
+		sb.append(destination_Port);
+		sb.append(seqNum);
+		sb.append(ackNum);
+		sb.append(flags);
+		System.out.println(sb.toString());
+	}
+
+}
